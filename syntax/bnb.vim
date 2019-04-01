@@ -12,7 +12,7 @@ endif
 
 syntax keyword bnbFunction fn get set
 syntax keyword bnbType enum type class var
-syntax keyword bnbOperator alloc dealloc throw
+syntax keyword bnbKeyword alloc dealloc throw
 syntax keyword bnbControlFlow catch do match finally in if elif else break return while for
 syntax keyword bnbBoolean true false
 syntax keyword bnbModifier hide as import private protected
@@ -30,7 +30,7 @@ highlight default link bnbComment Comment
 highlight default link bnbLineComment Comment
 highlight default link bnbFunction Keyword
 highlight default link bnbType Keyword
-highlight default link bnbOperator Operator
+highlight default link bnbKeyword Keyword
 highlight default link bnbControlFlow Keyword
 highlight default link bnbBoolean Boolean
 highlight default link bnbModifier Keyword
